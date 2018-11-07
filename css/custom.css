@@ -1,0 +1,61 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+    background-color: #212121;
+    font-family: 'Roboto', sans-serif;
+}
+/* Nav */
+nav {
+    position: fixed;
+    background: rgba(0, 0,0, 0);
+    padding: 0% 8%;
+    box-shadow: none;
+}
+
+.logo {
+    border: solid 1px #1976d2;
+    border-radius: 10%;
+    margin: 0%;
+    
+}
+
+.btn-large{
+    border-radius: 20px;
+}
+
+/* Section */
+section {
+    background-size: cover;
+    width: 100%;
+}
+
+/* Section Hero */
+#Hero-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(33, 33, 33, 1)),
+                        url("../public/asset/img/cover.jpg");
+    padding-top: 20%
+}
+
+.App-intro {
+    padding-top: 20%;
+}
+
+.logo-hero {
+    width: 35%;
+    padding-top: 10%;
+}
+
+.iphone-hero {
+   width: 100%
+}
+
+
+/* Section Download */
+#Download {
+    background-color: #ffff00 ;
+}
+
