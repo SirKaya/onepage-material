@@ -2,7 +2,7 @@
 $(document).ready(function () {
 
     $(window).scroll(function () {
-        if ($(window).scrollTop() > 1000) {
+        if ($(window).scrollTop() > 700) {
             $('nav').addClass('grey darken-3');
             $('#logo').removeClass('logo');
             

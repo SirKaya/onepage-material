@@ -8,6 +8,7 @@ body {
     background-color: #212121;
     font-family: 'Roboto', sans-serif;
 }
+
 /* Nav */
 nav {
     position: fixed;
@@ -18,44 +19,56 @@ nav {
 
 .logo {
     border: solid 1px #1976d2;
-    border-radius: 10%;
-    margin: 0%;
+    border-radius: 10px;
     
 }
 
-.btn-large{
+.btn-small{
     border-radius: 20px;
+    color: #757575;
+    text-transform: none;
 }
 
 /* Section */
-section {
-    background-size: cover;
-    width: 100%;
-}
+
 
 /* Section Hero */
-#Hero-header {
+#hero-header {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(33, 33, 33, 1)),
                         url("../public/asset/img/cover.jpg");
-    padding-top: 20%
+    padding-top: 20%;
 }
 
-.App-intro {
+.app-intro {
     padding-top: 20%;
 }
 
 .logo-hero {
-    width: 35%;
-    padding-top: 10%;
+    width: 25%;
+    padding-top: 5%;
 }
 
 .iphone-hero {
-   width: 100%
+    width: 100%;
+}
+
+/* Section Bénéfice */
+.iphone-side{
+    width: 40%;
+    padding-top: 30%;
+}
+
+.benefice-1text {
+    padding-top: 60%;
+}
+
+.benefice-2text {
+    padding-top: 20%;
 }
 
 
 /* Section Download */
-#Download {
+#download {
     background-color: #ffff00 ;
 }
 
